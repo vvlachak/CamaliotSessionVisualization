@@ -1,0 +1,572 @@
+[
+    {
+        "Start date-time": "2022-03-30 15:23:43.804000",
+        "Duration [MM:SS]": "03:32",
+        "Duration [M.f]": 3.5366,
+        "Latitude (median) [deg]": 46.206899,
+        "Longitude (median) [deg]": 6.156595,
+        "TotalCountOfMeas": 11539,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 2718.0,
+            "2": null,
+            "3": 1316.0,
+            "4": null,
+            "5": 4811.0,
+            "6": 2443.0,
+            "7": 251.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.24,
+            "2": null,
+            "3": 0.11,
+            "4": null,
+            "5": 0.42,
+            "6": 0.21,
+            "7": 0.02
+        }
+    },
+    {
+        "Start date-time": "2022-03-30 18:23:07.000000",
+        "Duration [MM:SS]": "07:30",
+        "Duration [M.f]": 7.5,
+        "Latitude (median) [deg]": 46.199753,
+        "Longitude (median) [deg]": 6.151153,
+        "TotalCountOfMeas": 27348,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 6604.0,
+            "2": null,
+            "3": 3517.0,
+            "4": null,
+            "5": 11056.0,
+            "6": 5747.0,
+            "7": 424.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.24,
+            "2": null,
+            "3": 0.13,
+            "4": null,
+            "5": 0.4,
+            "6": 0.21,
+            "7": 0.02
+        }
+    },
+    {
+        "Start date-time": "2022-04-02 15:07:17.000000",
+        "Duration [MM:SS]": "06:30",
+        "Duration [M.f]": 6.5,
+        "Latitude (median) [deg]": 46.232757,
+        "Longitude (median) [deg]": 6.012527,
+        "TotalCountOfMeas": 22453,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 4540.0,
+            "2": null,
+            "3": 2364.0,
+            "4": null,
+            "5": 9725.0,
+            "6": 5433.0,
+            "7": 391.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.2,
+            "2": null,
+            "3": 0.11,
+            "4": null,
+            "5": 0.43,
+            "6": 0.24,
+            "7": 0.02
+        }
+    },
+    {
+        "Start date-time": "2022-04-16 17:38:39.000000",
+        "Duration [MM:SS]": "05:31",
+        "Duration [M.f]": 5.5167,
+        "Latitude (median) [deg]": 39.337962,
+        "Longitude (median) [deg]": 23.011723,
+        "TotalCountOfMeas": 22599,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 5482.0,
+            "2": null,
+            "3": 2652.0,
+            "4": null,
+            "5": 8889.0,
+            "6": 4936.0,
+            "7": 640.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.24,
+            "2": null,
+            "3": 0.12,
+            "4": null,
+            "5": 0.39,
+            "6": 0.22,
+            "7": 0.03
+        }
+    },
+    {
+        "Start date-time": "2022-04-28 17:09:42.000000",
+        "Duration [MM:SS]": "05:30",
+        "Duration [M.f]": 5.5,
+        "Latitude (median) [deg]": 40.595395,
+        "Longitude (median) [deg]": 22.949156,
+        "TotalCountOfMeas": 18112,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 4812.0,
+            "2": null,
+            "3": 1384.0,
+            "4": null,
+            "5": 7048.0,
+            "6": 3656.0,
+            "7": 1212.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.27,
+            "2": null,
+            "3": 0.08,
+            "4": null,
+            "5": 0.39,
+            "6": 0.2,
+            "7": 0.07
+        }
+    },
+    {
+        "Start date-time": "2022-04-29 12:03:52.000000",
+        "Duration [MM:SS]": "05:31",
+        "Duration [M.f]": 5.5167,
+        "Latitude (median) [deg]": 47.423523,
+        "Longitude (median) [deg]": 8.566624,
+        "TotalCountOfMeas": 16084,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 3488.0,
+            "2": null,
+            "3": 1052.0,
+            "4": null,
+            "5": 7325.0,
+            "6": 3593.0,
+            "7": 626.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.22,
+            "2": null,
+            "3": 0.07,
+            "4": null,
+            "5": 0.46,
+            "6": 0.22,
+            "7": 0.04
+        }
+    },
+    {
+        "Start date-time": "2022-05-11 18:51:51.080000",
+        "Duration [MM:SS]": "05:29",
+        "Duration [M.f]": 5.4987,
+        "Latitude (median) [deg]": 46.23546,
+        "Longitude (median) [deg]": 6.025355,
+        "TotalCountOfMeas": 21274,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 5232.0,
+            "2": null,
+            "3": 1977.0,
+            "4": null,
+            "5": 8769.0,
+            "6": 4934.0,
+            "7": 362.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.25,
+            "2": null,
+            "3": 0.09,
+            "4": null,
+            "5": 0.41,
+            "6": 0.23,
+            "7": 0.02
+        }
+    },
+    {
+        "Start date-time": "2022-05-25 07:34:14.000000",
+        "Duration [MM:SS]": "08:30",
+        "Duration [M.f]": 8.5,
+        "Latitude (median) [deg]": 40.299865,
+        "Longitude (median) [deg]": 22.094924,
+        "TotalCountOfMeas": 23749,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 4877.0,
+            "2": null,
+            "3": 2899.0,
+            "4": null,
+            "5": 10248.0,
+            "6": 5217.0,
+            "7": 508.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.21,
+            "2": null,
+            "3": 0.12,
+            "4": null,
+            "5": 0.43,
+            "6": 0.22,
+            "7": 0.02
+        }
+    },
+    {
+        "Start date-time": "2022-05-26 09:05:03.000000",
+        "Duration [MM:SS]": "10:45",
+        "Duration [M.f]": 10.75,
+        "Latitude (median) [deg]": 39.967037,
+        "Longitude (median) [deg]": 21.74591,
+        "TotalCountOfMeas": 26025,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 6030.0,
+            "2": null,
+            "3": 2862.0,
+            "4": null,
+            "5": 9915.0,
+            "6": 7218.0,
+            "7": null
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.23,
+            "2": null,
+            "3": 0.11,
+            "4": null,
+            "5": 0.38,
+            "6": 0.28,
+            "7": null
+        }
+    },
+    {
+        "Start date-time": "2022-05-26 10:19:51.000000",
+        "Duration [MM:SS]": "12:11",
+        "Duration [M.f]": 12.1833,
+        "Latitude (median) [deg]": 40.098345,
+        "Longitude (median) [deg]": 21.802616,
+        "TotalCountOfMeas": 29158,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 6309.0,
+            "2": null,
+            "3": 4412.0,
+            "4": null,
+            "5": 13121.0,
+            "6": 4229.0,
+            "7": 1087.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.22,
+            "2": null,
+            "3": 0.15,
+            "4": null,
+            "5": 0.45,
+            "6": 0.15,
+            "7": 0.04
+        }
+    },
+    {
+        "Start date-time": "2022-06-17 20:20:28.000000",
+        "Duration [MM:SS]": "04:32",
+        "Duration [M.f]": 4.5333,
+        "Latitude (median) [deg]": 46.241395,
+        "Longitude (median) [deg]": 6.024366,
+        "TotalCountOfMeas": 13717,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 3711.0,
+            "2": null,
+            "3": 1508.0,
+            "4": null,
+            "5": 4988.0,
+            "6": 3023.0,
+            "7": 487.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.27,
+            "2": null,
+            "3": 0.11,
+            "4": null,
+            "5": 0.36,
+            "6": 0.22,
+            "7": 0.04
+        }
+    },
+    {
+        "Start date-time": "2022-06-18 07:09:02.000000",
+        "Duration [MM:SS]": "05:34",
+        "Duration [M.f]": 5.5667,
+        "Latitude (median) [deg]": 46.233764,
+        "Longitude (median) [deg]": 6.018544,
+        "TotalCountOfMeas": 22910,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 4985.0,
+            "2": null,
+            "3": 2647.0,
+            "4": null,
+            "5": 10159.0,
+            "6": 4790.0,
+            "7": 329.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.22,
+            "2": null,
+            "3": 0.12,
+            "4": null,
+            "5": 0.44,
+            "6": 0.21,
+            "7": 0.01
+        }
+    },
+    {
+        "Start date-time": "2022-06-18 19:10:17.000000",
+        "Duration [MM:SS]": "05:30",
+        "Duration [M.f]": 5.5,
+        "Latitude (median) [deg]": 46.230279,
+        "Longitude (median) [deg]": 6.073922,
+        "TotalCountOfMeas": 20396,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 4916.0,
+            "2": null,
+            "3": 2486.0,
+            "4": null,
+            "5": 8585.0,
+            "6": 3800.0,
+            "7": 609.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.24,
+            "2": null,
+            "3": 0.12,
+            "4": null,
+            "5": 0.42,
+            "6": 0.19,
+            "7": 0.03
+        }
+    },
+    {
+        "Start date-time": "2022-06-25 19:20:51.000000",
+        "Duration [MM:SS]": "10:31",
+        "Duration [M.f]": 10.5167,
+        "Latitude (median) [deg]": 46.243741,
+        "Longitude (median) [deg]": 6.028749,
+        "TotalCountOfMeas": 33582,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 8143.0,
+            "2": null,
+            "3": 3775.0,
+            "4": null,
+            "5": 15378.0,
+            "6": 6234.0,
+            "7": 52.0
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.24,
+            "2": null,
+            "3": 0.11,
+            "4": null,
+            "5": 0.46,
+            "6": 0.19,
+            "7": 0.0
+        }
+    },
+    {
+        "Start date-time": "2022-07-30 19:42:06.000000",
+        "Duration [MM:SS]": "08:30",
+        "Duration [M.f]": 8.5,
+        "Latitude (median) [deg]": 46.197509,
+        "Longitude (median) [deg]": 6.123384,
+        "TotalCountOfMeas": 27742,
+        "GnssSystems": {
+            "0": "UNKNOWN",
+            "1": "GPS",
+            "2": "SBAS",
+            "3": "GLONASS",
+            "4": "QZSS",
+            "5": "BEIDOU",
+            "6": "GALILEO",
+            "7": "IRNSS"
+        },
+        "MeasCountPerSystem": {
+            "0": null,
+            "1": 6439.0,
+            "2": null,
+            "3": 3564.0,
+            "4": null,
+            "5": 11537.0,
+            "6": 6202.0,
+            "7": null
+        },
+        "MeasPercentagePerSystem": {
+            "0": null,
+            "1": 0.23,
+            "2": null,
+            "3": 0.13,
+            "4": null,
+            "5": 0.42,
+            "6": 0.22,
+            "7": null
+        }
+    }
+]
