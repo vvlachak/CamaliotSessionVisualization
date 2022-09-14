@@ -152,10 +152,10 @@ Obviously, a large part of the information that is stored in the JSON file is re
   
 [GnssConstellationType Enum]: https://docs.microsoft.com/en-us/dotnet/api/android.locations.gnssconstellationtype?view=xamarin-android-sdk-12
 
-[plot1]: https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
-[plot2]: https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
-[plot3]: https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true  
-[plot4]: https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true
+[plot1]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_MeasDurationPerWeek.jpg
+[plot2]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_CumulativeMeasDuration.jpg
+[plot3]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_MeasCountPerWeek.jpg
+[plot4]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_DurationHistogram.jpg
   
 
   
