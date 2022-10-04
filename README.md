@@ -1,6 +1,7 @@
 
 
 
+
 # CamaliotSessionVisualization
 
   
@@ -22,33 +23,36 @@
  
 [User guide](#user-guide)
 
+[Folder structure](#folder-structure)
+
+
 
 ## Introduction
 
 ### What is CAMALIOT?
 
-According to [this publication][Publication1], **CAMALIOT** (Appli**ca**tion of **Ma**chine **L**earning Technology for GNSS **IoT** data fusion) is an ongoing project funded by the European Space Agency (ESA) that aims to collect large amounts of GNSS observations by developing an Android application and conducting a dedicated crowdsourcing campaign.
+According to [this publication][Publication1], **CAMALIOT** (Appli**ca**tion of **Ma**chine **L**earning Technology for GNSS **IoT** data fusion) is an ongoing project funded by the European Space Agency (ESA) that aims to collect large amounts of GNSS observations by developing an Android application and conducting a dedicated crowd-sourcing campaign.
 
 More information about the CAMALIOT project can be found in [this article][ETHZ news] and in the [official webpage of CAMALIOT][CAMALIOT.org].
 
-The first crowdsourcing campaign started on 17 March 2022 and ended on 31 July 2022, while on 1 August 2022 the Autumn campaign has started!
+The first crowd-sourcing campaign started on 17 March 2022 and ended on 31 July 2022, while on 1 August 2022 the Autumn campaign has started!
 
 Through a *citizen science* approach anyone can download the free app and collect data (ideally while keeping the phone static and with a good view of the sky) and then upload the data to the CAMALIOT server.
 
 ### Raw data
 
 The CAMALIOT app data files contain information in two different structures:
-1. ```# Fix, Provider, Latitude, Longitude, Altitude, Speed, Accuracy, (UTC)TimeInMs```\
+1. `# Fix, Provider, Latitude, Longitude, Altitude, Speed, Accuracy, (UTC)TimeInMs`\
 e.g.,\
-```Fix, gps, 46.206899, 6.156595, 421.961243, 0.000000, 9.935046, 1648646790000```
+`Fix, gps, 46.206899, 6.156595, 421.961243, 0.000000, 9.935046, 1648646790000`
   
-2. ```# Raw, ElapsedRealtimeMillis, TimeNanos, LeapSecond, TimeUncertaintyNanos, FullBiasNanos, BiasNanos, BiasUncertaintyNanos, DriftNanosPerSecond, DriftUncertaintyNanosPerSecond, HardwareClockDiscontinuityCount, Svid, TimeOffsetNanos, State, ReceivedSvTimeNanos, ReceivedSvTimeUncertaintyNanos, Cn0DbHz, PseudorangeRateMetersPerSecond, PseudorangeRateUncertaintyMetersPerSecond, AccumulatedDeltaRangeState, AccumulatedDeltaRangeMeters, AccumulatedDeltaRangeUncertaintyMeters, CarrierFrequencyHz, CarrierCycles, CarrierPhase, CarrierPhaseUncertainty, MultipathIndicator, SnrInDb, ConstellationType, AgcDb```\
+2. `# Raw, ElapsedRealtimeMillis, TimeNanos, LeapSecond, TimeUncertaintyNanos, FullBiasNanos, BiasNanos, BiasUncertaintyNanos, DriftNanosPerSecond, DriftUncertaintyNanosPerSecond, HardwareClockDiscontinuityCount, Svid, TimeOffsetNanos, State, ReceivedSvTimeNanos, ReceivedSvTimeUncertaintyNanos, Cn0DbHz, PseudorangeRateMetersPerSecond, PseudorangeRateUncertaintyMetersPerSecond, AccumulatedDeltaRangeState, AccumulatedDeltaRangeMeters, AccumulatedDeltaRangeUncertaintyMeters, CarrierFrequencyHz, CarrierCycles, CarrierPhase, CarrierPhaseUncertainty, MultipathIndicator, SnrInDb, ConstellationType, AgcDb`\
 e.g.,\
-```Raw, 28189020, 11232846000000, 18, , -1332670773582635432, 0.8295364379882812, 22.152808014652692, -5.098334209574816, 9.629362666402953, 2, 35, 0.0, 16399, 307592340631009, 6, 30.3, -608.1038818359375, 0.07541361451148987, 16, 0.0, 0.0, 1.17645005E9, , , , 0, , 5, 0.26```
+`Raw, 28189020, 11232846000000, 18, , -1332670773582635432, 0.8295364379882812, 22.152808014652692, -5.098334209574816, 9.629362666402953, 2, 35, 0.0, 16399, 307592340631009, 6, 30.3, -608.1038818359375, 0.07541361451148987, 16, 0.0, 0.0, 1.17645005E9, , , , 0, , 5, 0.26`
 
-The data files are stored in the following directory in the mobile phone: ```../Android/data/com.iiasa.camaliot/files``` and the filenames follow the format: ```camaliot_app_log_YYYY_MM_DD_HH_MM_SS.txt```
+The data files are stored in the following directory in the mobile phone: `../Android/data/com.iiasa.camaliot/files` and the filenames follow the format: `camaliot_app_log_YYYY_MM_DD_HH_MM_SS.txt`
 
-These files should be copied in a subdirectory of the ```data``` folder of the *CamaliotSessionVisualization* tool (see [User guide](#user-guide)).
+These files should be copied in a subdirectory of the `\data` folder of the *CamaliotSessionVisualization* tool (see [User guide](#user-guide), [Folder structure](#folder-structure)).
 
 ### Data processing
 
@@ -137,35 +141,30 @@ Obviously, a large part of the information that is stored in the JSON file is re
 
 ## User guide
 
-  
+Initially, the user is required to perform the following steps:
+
+ 1. Create a new subdirectory in the `\data`folder of the *CamaliotSessionVisualization* tool (e.g., the `\testDataSet` folder of the repository).
+ 2. Copy the CAMALIOT data files (`camaliot_app_log_YYYY_MM_DD_HH_MM_SS.txt`) in the aforementioned new subdirectory.
+ 3. Provide the name of the new subdirectory in the source file `CamaliotSessionVisualization_Main.py`  (e.g., ```__PROJECTNAME__ = 'testDataSet'```.
+ 5. Run the `CamaliotSessionVisualization_Main.py` source file.
+
+### Functionality
+
+By running the`CamaliotSessionVisualization_Main.py` source file,  *CamaliotSessionVisualization* will perform the following functions:
+
+ 1. `data2dict`: Read all the CAMALIOT data files located in the defined folder and extract the required data to a list of dictionaries (variable `dataDictionary`).
+ 2. `dict2json`: Store the list of dictionaries `dataDictionary` in a JSON file in the `\data` folder.
+ 3. `dict2csv`: Store the median of the longitude and latitude for each session in a CSV file in the `\data` folder. This file will facilitate the user to plot the locations of the measurements in any mapping software (e.g., QGIS, Google Earth, etc.).
+ 4. `plotDurationPerWeek`: Plot the duration of the measurements per week and the cumulative duration. 
+ 5. `plotMeasCountPerWeek`: Plot the cumulative number of the measurements for each GNSS system.
+ 6. `plotDurationHistogram`: Plot the histogram of the duration of the sessions
+
+Notes: 
+
+ - The figures can be automatically exported to any or all of the three available formats, depending on the user option `format=['pdf', 'png', 'jpg']`. 
+ - The figures are stored in the `\figures` folder (see [Folder structure](#folder-structure)).
 
 
-
-
-
-
-[Publication1]: https://pure.iiasa.ac.at/id/eprint/18035/
-  
-[ETHZ news]: https://baug.ethz.ch/en/news-and-events/news/2022/03/use-your-cellphone-to-improve-weather-forecasts.html?fbclid=IwAR1IKgfewtl94-H9P2ONsSXzvFw-rgzQ6gFAOD9mFa0elU9u0yCeCZrxzus
-
-[CAMALIOT.org]: https://www.camaliot.org/
-  
-[GnssConstellationType Enum]: https://docs.microsoft.com/en-us/dotnet/api/android.locations.gnssconstellationtype?view=xamarin-android-sdk-12
-
-[plot1]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_MeasDurationPerWeek.jpg
-[plot2]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_CumulativeMeasDuration.jpg
-[plot3]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_MeasCountPerWeek.jpg
-[plot4]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_DurationHistogram.jpg
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
 
 ## Folder structure
 ```
@@ -182,9 +181,20 @@ CamaliotSessionVisualization
 └───...
 ```
 
+
+<!--- References--->
+
+[Publication1]: https://pure.iiasa.ac.at/id/eprint/18035/
   
+[ETHZ news]: https://baug.ethz.ch/en/news-and-events/news/2022/03/use-your-cellphone-to-improve-weather-forecasts.html?fbclid=IwAR1IKgfewtl94-H9P2ONsSXzvFw-rgzQ6gFAOD9mFa0elU9u0yCeCZrxzus
+
+[CAMALIOT.org]: https://www.camaliot.org/
   
+[GnssConstellationType Enum]: https://docs.microsoft.com/en-us/dotnet/api/android.locations.gnssconstellationtype?view=xamarin-android-sdk-12
+
+[plot1]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_MeasDurationPerWeek.jpg
+[plot2]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_CumulativeMeasDuration.jpg
+[plot3]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_MeasCountPerWeek.jpg
+[plot4]: https://github.com/vvlachak/CamaliotSessionVisualization/blob/main/figures/testDataSet_DurationHistogram.jpg
   
-  
-  
-  
+
