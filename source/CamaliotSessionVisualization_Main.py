@@ -44,13 +44,13 @@ if __name__ == '__main__':
     jsonInFilename = os.path.abspath(os.path.join(os.getcwd(), "../data", __PROJECTNAME__ + ".json"))
     
     # Plot two graphs: the duration of the measurements per week and the cumulative duration (stored in the "\figures" folder)
-    plotDurationPerWeek(__PROJECTNAME__, file = jsonInFilename) # format=['pdf', 'png', 'jpg']
+    plotDurationPerWeek(__PROJECTNAME__, file = jsonInFilename, format=['pdf', 'png', 'jpg'])
 
     # Plot the cumulative number of the measurements for each GNSS system (stored in the "\figures" folder)
     plotMeasCountPerWeek(__PROJECTNAME__, file = jsonInFilename, format=['pdf', 'png', 'jpg'])
 
     # Plot the histogram of the duration of the sessions (stored in the "\figures" folder)
-    plotDurationHistogram(__PROJECTNAME__, file = jsonInFilename) # format=['pdf', 'png', 'jpg']
+    plotDurationHistogram(__PROJECTNAME__, file = jsonInFilename, format=['pdf', 'png', 'jpg'])
 
  
 

@@ -140,17 +140,17 @@ def plotDurationPerWeek(__PROJECTNAME__,
     # Save as .pdf at \figures folder
     if 'pdf' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_MeasDurationPerWeek.pdf"))
-        fig.savefig(figPath, format='pdf', dpi=1000, bbox_inches='tight')
+        fig.savefig(figPath, format='pdf', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_MeasDurationPerWeek.pdf is stored in the \figures folder')
     # Save as .png at \figures folder
     if 'png' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_MeasDurationPerWeek.png"))
-        fig.savefig(figPath, format='png', dpi=1000, bbox_inches='tight')
+        fig.savefig(figPath, format='png', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_MeasDurationPerWeek.png is stored in the \figures folder')
     # Save as .jpg at \figures folder
     if 'jpg' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_MeasDurationPerWeek.jpg"))
-        fig.savefig(figPath, format='jpeg', dpi=1000, bbox_inches='tight')    
+        fig.savefig(figPath, format='jpeg', dpi=200, bbox_inches='tight')    
         print(f'The figure {__PROJECTNAME__}_MeasDurationPerWeek.jpg is stored in the \figures folder')
         
 
@@ -192,17 +192,17 @@ def plotDurationPerWeek(__PROJECTNAME__,
     # Save as .pdf at \figures folder
     if 'pdf' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_CumulativeMeasDuration.pdf"))
-        fig.savefig(figPath, format='pdf', dpi=300, bbox_inches='tight')
+        fig.savefig(figPath, format='pdf', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_CumulativeMeasDuration.pdf is stored in the \figures folder')
     # Save as .png at \figures folder
     if 'png' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_CumulativeMeasDuration.png"))
-        fig.savefig(figPath, format='png', dpi=300, bbox_inches='tight')
+        fig.savefig(figPath, format='png', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_CumulativeMeasDuration.png is stored in the \figures folder')
     # Save as .jpg at \figures folder
     if 'jpg' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_CumulativeMeasDuration.jpg"))
-        fig.savefig(figPath, format='jpeg', dpi=300, bbox_inches='tight')    
+        fig.savefig(figPath, format='jpeg', dpi=200, bbox_inches='tight')    
         print(f'The figure {__PROJECTNAME__}_CumulativeMeasDuration.jpg is stored in the \figures folder')
     
     return 0
@@ -379,17 +379,17 @@ def plotMeasCountPerWeek(__PROJECTNAME__,
     # Save as .pdf at \figures folder
     if 'pdf' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_MeasCountPerWeek.pdf"))
-        fig.savefig(figPath, format='pdf', dpi=300, bbox_inches='tight')
+        fig.savefig(figPath, format='pdf', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_MeasCountPerWeek.pdf is stored in the \figures folder')
     # Save as .png at \figures folder
     if 'png' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_MeasCountPerWeek.png"))
-        fig.savefig(figPath, format='png', dpi=300, bbox_inches='tight')
+        fig.savefig(figPath, format='png', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_MeasCountPerWeek.png is stored in the \figures folder')
     # Save as .jpg at \figures folder
     if 'jpg' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_MeasCountPerWeek.jpg"))
-        fig.savefig(figPath, format='jpeg', dpi=300, bbox_inches='tight')    
+        fig.savefig(figPath, format='jpeg', dpi=200, bbox_inches='tight')    
         print(f'The figure {__PROJECTNAME__}_MeasCountPerWeek.jpg is stored in the \figures folder')
           
     return 0          
@@ -496,17 +496,17 @@ def plotDurationHistogram(__PROJECTNAME__,
     # Save as .pdf at \figures folder
     if 'pdf' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_DurationHistogram.pdf"))
-        fig.savefig(figPath, format='pdf', dpi=300, bbox_inches='tight')
+        fig.savefig(figPath, format='pdf', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_DurationHistogram.pdf is stored in the \figures folder')
     # Save as .png at \figures folder
     if 'png' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_DurationHistogram.png"))
-        fig.savefig(figPath, format='png', dpi=300, bbox_inches='tight')
+        fig.savefig(figPath, format='png', dpi=200, bbox_inches='tight')
         print(f'The figure {__PROJECTNAME__}_DurationHistogram.png is stored in the \figures folder')
     # Save as .jpg at \figures folder
     if 'jpg' in format:
         figPath = os.path.abspath(os.path.join(os.getcwd(), "../figures/", __PROJECTNAME__ + "_DurationHistogram.jpg"))
-        fig.savefig(figPath, format='jpeg', dpi=300, bbox_inches='tight')    
+        fig.savefig(figPath, format='jpeg', dpi=200, bbox_inches='tight')    
         print(f'The figure {__PROJECTNAME__}_DurationHistogram.jpg is stored in the \figures folder')
         
     return 0
